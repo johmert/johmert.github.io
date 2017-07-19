@@ -1,9 +1,24 @@
 * {
   background-color: black;
   color: white;
-  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-a {
-  color: white;
+.nav {
+  display: inline-block;
+  background-color: red;
+}
+
+.nav span {
+  border: 2px solid seashell;
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+
 }
