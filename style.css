@@ -102,23 +102,19 @@ nav {
   opacity: 0.9;
   width: 30rem;
   height: 25rem;
-  margin: 3rem;
+  margin: 1rem;
   border: 1px solid midnightblue;
+  transition: opacity 350ms 150ms;
 }
 
-.page a {
+.page span {
   font-size: 2rem;
   text-shadow: 0.2rem 0.2rem midnightblue;
   color: white;
-  transition: color 350ms 150ms;
 }
 
-.page a:hover {
-  color: darkgray;
-}
-
-.page a:active {
-  color: black;
+.page:hover {
+  opacity: 0.5;
 }
 
 #excursion {
